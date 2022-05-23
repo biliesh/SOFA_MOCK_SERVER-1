@@ -26,4 +26,4 @@ jobs:
       run: go build -v ./mockserver.go
 
     - name: Test
-      run: go test -v ./mockserver
+      run: ./mockserver
